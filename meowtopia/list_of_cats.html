@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+        margin: 0%;
+        padding: 0%;
+      }
+       
+        .bg {
+          
+          padding:100px;
+          background-color: #ffcb74;
+          animation-name: example;
+          animation-duration: 6s;   
+          margin: 0%;      
+        }
+
+       .fontu {
+        font-size: 77px;
+        padding-right: 10%;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 0px 4px 0px 5px;
+        text-align: center;
+      
+       }
+       .fontu2 {
+        font-size: 60px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding-left:3%;
+        background-color: #000000;
+        
+        padding-top: 50px;
+        padding-bottom: 50px; 
+        color: #ffffff;
+        margin: 0%;
+       }
+        
+        @keyframes example {
+          0%   {background-color: #dec6c6;}
+          25%  {background-color: #f9d699;}
+          50%  {background-color: #f6f6f6;}
+          100% {background-color: #ffcb74;}
+        }
+        .fas.fa-arrow-down {
+          font-size: 100px;
+      }
+      span {
+        content: "\2193";
+        font-size: 50px;
+        font-family: none;
+        animation: fadeIn 15s;
+      }
+      @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      .content-image {
+        background-size:contain;
+        background-color:#f6f6f6;
+
+      }
+      
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 40px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display:table;
+  padding:0%;
+  
+}
+.btn {
+  font-size: 18px;
+  background-color: #ffcb74;
+  border-radius: 90px;
+  padding: 20px 60px;
+  display: inline-block;
+  margin: 10px 6px;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.3s;
+  text-decoration: none;
+
+}
+.btn,a:link {
+  color: black;
+}
+
+.btn:hover {opacity: 0.6}
+.breed-name {
+  font-size: 25px;
+  text-align: center;  
+  margin: 10px;
+  color: #f6f6f6;
+
+}
+.bgc {
+  background-color: #000000;
+}
+.input-icons {
+  padding: 32px 259px 0px; 
+}
+.input-icons i {
+  position: absolute;
+}
+.input-field {
+  font-size: 33px;
+  padding: 3px 44px 3px ;
+  font: weight 1px;;
+  border-radius: 10px;
+  border: none;
+  font-style:italic;
+}
+ </style>
+</head>
+<body>
+    
+    <div class="bg">
+       <p class="fontu"> WANT TO KNOW ABOUT <br>CAT BREEDS ? <span>&#8595;</span></i></p>
+       <div class="input-icons">
+        <i class="fa fa-search" style="font-size:24px;padding: 7px;"></i>
+       <input type="search" placeholder="Search by breed name" class="input-field">
+       </div>
+    </div>
+    
+    <div>
+      <div class="bgc">
+      <p class="fontu2">list of cat breeds &nbsp;>>
+        <hr st2le="height:24px;border-width:10;color:#ffcb74;background-color:#ffcb74">
+      </p>
+      <div>
+        <div class="row">
+          <div class="column">
+            <img src="https://i.pinimg.com/564x/1f/ea/b5/1feab538aab5bccd2a446889e197851d.jpg" alt="american shorthair" height="100%" width="99.7%">
+            <p  class="breed-name">American shorthair</p>
+             <a class="btn" href="american_shorthair.html">  Read breed profile  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</a>
+          </div>
+          <div class="column">
+            <img src="https://i.pinimg.com/474x/93/cb/76/93cb769d817f936a0f60921bae7e2b41.jpg" alt="siamese cat" height="110%" width="86%">
+            <p  class="breed-name">Munchkin cat</p>
+            <a class="btn" href="american_shorthair.html"> Read breed profile  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</a>
+          </div>
+          <div class="column">
+            <img src="https://i.pinimg.com/564x/c9/3d/aa/c93daa1869f084f0f05058768f30b191.jpg" alt="british shorthair"height="100%" width="86%">
+            <p  class="breed-name">British shorthair</p>
+            <a class="btn" href="american_shorthair.html"> Read breed profile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</a>
+          </div>
+        </div>
+           <div class="row">
+          <div class="column">
+            <img src="https://i.pinimg.com/474x/4a/21/72/4a2172240bdcb0dd2606f4e5208b9f1e.jpg" alt="mainecoon" height="900%" width="95%">
+            <p  class="breed-name">Mainecoon</p>
+            <a class="btn" href="american_shorthair.html"> Read breed profile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</a>
+          </div>
+         
+          <div class="column">
+            <img src="https://i.pinimg.com/564x/da/57/c8/da57c847ce15b01af86028d78827a033.jpg" alt="persian" width="100%" height="100%">
+            <p  class="breed-name">Persian cat</p>
+            <a class="btn" href="american_shorthair.html"> Read breed profile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</a>
+          </div>
+          <div class="column">
+            <img src="https://i.pinimg.com/474x/6c/e6/c5/6ce6c52dbfbd79f040909ab58eb5d5cd.jpg" alt="ragdoll" width="83%">
+            <p  class="breed-name">Ragdoll</p>
+            <a class="btn" href="american_shorthair.html"> Read breed profile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</a>
+          </div>
+        </div>
+        <div class="row">
+        <div class="column">
+          <img src="https://i.pinimg.com/474x/77/30/7d/77307de244adb477ad07ea177db99c75.jpg" alt="sphynx cat" style="width:97%">
+          <p  class="breed-name">Sphynx cat</p>
+          <a class="btn" href="american_shorthair.html"> Read breed profile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</a>
+        </div>
+        <div class="column">
+          <img src="https://i.pinimg.com/474x/c4/97/20/c49720da325965e7fc1e9dad51aaef43.jpg" alt="absynnian cat" style="width:100%">
+          <p  class="breed-name">Absynnian cat</p>
+          <a class="btn" href="american_shorthair.html"> Read breed profile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</a>
+        </div>
+        
+        <div class="column">
+          <img src="https://i.pinimg.com/474x/b2/13/7d/b2137d0c485b25d07af599e30e930838.jpg" alt="exotic shorthair" style="width:100%">
+          <p  class="breed-name">Exotic shorthair</p>
+          <a class="btn" href="american_shorthair.html"> Read breed profile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</a>
+        </div>
+        </div>
+         <div class="row">
+          <div class="column">
+            <img src="https://i.pinimg.com/564x/9c/4c/32/9c4c32bdfa9a38e7a6a6cea88b779099.jpg" alt="scottish fold cat" style="width:97%">
+            <p  class="breed-name">Scottish fold cat</p>
+            <a class="btn" href="american_shorthair.html"> Read breed profile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</a>
+          </div>
+          <div class="column">
+            <img src="https://i.pinimg.com/564x/31/98/77/31987787cca2b825f61adfa2ff7721dc.jpg" alt="Bengali cat" style="width:99%">
+            <p  class="breed-name">Bengali cat</p>
+            <a class="btn" href="american_shorthair.html"> Read breed profile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</a>
+          </div>
+          
+          <div class="column">
+            <img src="https://i.pinimg.com/564x/bc/c1/9b/bcc19b2c1023438ea1cfae2f54f0f24d.jpg" alt="Burmilla" width="97%">
+            <p  class="breed-name">Burmilla cat</p>
+            <a class="btn" href="american_shorthair.html"> Read breed profile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</a>
+          </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <img src="https://i.pinimg.com/474x/6a/db/e7/6adbe74954a6b636e1a2042bdfe9fc3d.jpg" alt="laperm" style="width:97%">
+              <p  class="breed-name">Laperm cat</p>
+              <a class="btn" href="american_shorthair.html"> Read breed profile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</a>
+            </div>
+            <div class="column">
+              <img src="https://i.pinimg.com/474x/24/d3/49/24d3490652e04d7e44e76fda3c794a6f.jpg" alt="korat cat" style="width:94%">
+              <p  class="breed-name">Korat cat</p>
+              <a class="btn" href="american_shorthair.html">Read breed profile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</a>
+            </div>
+            
+            <div class="column">
+              <img src="https://i.pinimg.com/564x/19/73/4b/19734b8c999f100e089b28f3a3262b5b.jpg" alt="devon rex" width="85%">
+              <p  class="breed-name">Devonrex cat</p>
+              <a class="btn"href="american_shorthair.html"> Read breed profile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</a>
+            </div>
+            </div>
+        
+        </div>
+      
+    </div>
+   
+</body>
+</html>

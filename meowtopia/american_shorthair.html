@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American-Shorthair</title>
+</head>
+<style>
+  .americancat {
+    padding: 20px;
+    background-color: #ffcb74;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+    .content {
+        font-size: 22px;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .left {
+        background-color: #ffcb74;
+        float: left;
+        padding:60px;    
+    }
+        
+    .right {
+        
+        background-color:#ffcb74;
+        padding: 60px;
+        float: right;
+       
+    }
+    .center {
+        
+        background-color:#ffe8c1;
+        padding: 60px;
+        float: right;
+        
+    }
+    .center, .left , .right {
+        margin: 0px 0px 0px;
+        text-align:justify;
+        
+    }
+    .cat-content {
+        background-color: rgb(255, 255, 255);
+        font-size: 22px;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .body {
+        margin: 30px;
+    }
+    .body2 {
+        margin: 20px;
+
+    }
+    .body h1 {
+        font-size: 22px;
+    }
+    .body p {
+        font-size: 20px;
+        font-family: initial;
+    }
+    .cat-content2 {
+        font-size: 22px;
+        
+    }
+    .cat-content2 h1 {
+        font-size: 20px;
+    }
+    .cat-content2 p {
+        font-size: 20px;
+        font-family: initial;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .form {
+        margin: 1%;
+        padding: 2%;
+        background-color: #ffcb74;
+    }
+  .text-box {
+    margin: 12px 4px;
+    padding:  15px 150px 100px 6px;
+    border: #000000;
+    border-radius: 10px;
+  }
+  .text-box1 {
+    padding: 10px 90px 10px 6px;
+    border: #000000;
+    border-radius: 10px;
+  }
+
+  .last h1 {
+    font-size: 55px;
+    font-family: inherit;
+
+  }
+  .last p {
+    font-size: 25px;
+  }
+  .bt {
+    padding: 15px 100px 10px 6px;
+    border-radius: 40px;
+  }
+  .bt2 {
+    border-radius: 30px;
+    padding: 15px;
+    background-color: #000000;
+    border: none;
+    color: white;
+  }
+  .bt2:hover {
+    color: rgb(255, 255, 255);
+    background-color: #f0ba56;
+    border-radius: 30px;
+  }
+  button {
+    background-color: #ffffff;
+    border-radius: 50px;
+    color:#fdb73f;
+    border: none;
+  }
+  button:hover {
+    background-color:#f6e6ca;
+    color: #000000;
+
+  }
+  .rating {
+    display: inline;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+  .rating label::after {
+    content: '\2605'; /* Unicode character for a star */
+  }
+  
+  .rating input:checked ~ label {
+    color: rgb(0, 0, 0);
+  }
+  .layout {
+    width: 800px;
+    margin: auto;
+    }
+    .accordion {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #ffcb74;
+    border-radius: 10px;
+    }
+    .accordion__question p {
+    margin: 5px;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 20px;
+    }
+    .accordion__answer p {
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    background: black;
+    border-radius: 10px;
+    }
+    .accordion:hover {
+    cursor: pointer;
+    }
+    .accordion__answer {
+    display: none;
+    }
+    .accordion.active .accordion__answer {
+    display: block;
+    }
+    span {
+      font-size: 32px;
+      width: 100px;
+      height: 100px;
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      border-radius: 40%; 
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    }
+   
+    
+</style>
+<body>
+  <div class="americancat">
+    <p>American Shorthair Cat &#128008;</p>
+  </div>
+    <h1 style="text-align: center;">Did You Know ?</h1>
+<div class="content">
+    <div class="left">Even though the breed is distinctly American, these cats are popular in other parts of the world. The American Shorthair has been recognized by TICA – The International Cat Association.</div>
+    <div class="center">Pick a color! Whatever your favorite cat color may be, it's likely that you'll find an American Shorthair to match. There are more than 80 recognized American Shorthair cat colors and patterns.</div>
+    <div class="right">Thanks to their general good health, American Shorthair cats have long life expectancies, often exceeding 15 years.</div>
+</div>
+<h1 style="text-align: center;">The Breed Standard</h1>
+<div class="cat-content">
+    <img src="https://cats.com/wp-content/uploads/2020/10/American-Shorthairs.jpg" alt="american shorthair" style="border-bottom:#ffcb74; border-radius:50px" >
+    <div class="body"><h1>BODY</h1> <hr>
+       <p> The American Shorthair exudes power, confidence, and grace. Their bodies are muscular and compact, with a rounded shape that's as cuddly as it is attractive.
+      </p><h1>HEAD</h1> <hr>
+      <p>It's easy to distinguish an American Shorthair from a domestic shorthair by looking at the head shape. These cats have distinctly rounded heads with prominent cheeks and fleshy whisker pads. Many American Shorthairs have prominent jowls; this feature is particularly noticeable in intact males.
+      </p>
+   </div>
+</div>
+<div class="cat-content2">
+    <div class="body2">
+        <h1>EARS</h1>
+      <hr>
+      <p>An American Shorthair cat has medium-sized ears with rounded tips, set wide apart on the head and not overly large at the base.</p>
+      <h1>COAT</h1>
+      <hr>
+      <p>This breed has a short but lustrous coat with ample body and an even texture. The coat should appear soft and healthy.</p>
+       <div class="body2-content">
+         <h1>COLOR</h1>
+           <hr>
+         <p>American Shorthair cats come in every color and pattern except for pointed as in Asian breeds such as the Siamese. Tabby, tortoiseshell, smoke, blue, white, and black colors and patterns are all acceptable. In all, the breed standard allows more than 80 acceptable American Shorthair colors and patterns.</p>
+       </div>
+    </div> 
+</div> 
+    <div class="form">
+        <h1>Leave a Reply</h1>
+        <p>Rate this breed</p>
+        <!-- rating here -->
+        <div class="rating">
+            <input type="radio" id="star5" name="rating" value="1">
+            <label for="star5"></label>
+            <input type="radio" id="star4" name="rating" value="2">
+            <label for="star4"></label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3"></label>
+            <input type="radio" id="star2" name="rating" value="4">
+            <label for="star2"></label>
+            <input type="radio" id="star1" name="rating" value="5">
+            <label for="star1"></label>
+          </div>
+        <p>Your email address will not be published.Required fields are marked*</p>
+        <form action="">
+            <label for="comment">Comment*</label> <br>
+            <input type="text" class="text-box"><br>
+            <label for="comment">Name*</label> <br>
+            <input type="text" class="text-box1"><br> 
+            <label for="comment">Email*</label> <br>
+            <input type="text"class="text-box1"> <br> <br>
+            <button style="padding: 10px; font-size:16px;font-family:initial">Post comment</button>
+        </form>
+    </div>
+    <div>
+      <h2 style="color:rgb(0, 0, 0); text-align:center;font-family:Verdana, Geneva, Tahoma, sans-serif">
+        Frequently Asked Questions
+      </h2>
+      <div class="layout">
+        <div class="accordion">
+        <div class="accordion__question">
+          <p><span>&#63;</span> How much does a American-Shorthair cat cost?</p>
+      
+        </div>
+        <div class="accordion__answer">
+          <p> American Shorthair cats cost between $100 - $1,000.</p>
+        </div>
+        </div>
+      
+        <div class="accordion">
+        <div class="accordion__question">
+          <p><span>&#63;</span> How big do American-Shorthair cats get?</p>
+        </div>
+      
+        <div class="accordion__answer">
+          <p>
+            American Shorthair cats tend to be medium in size. A fully grown American Shorthair cat might weigh between 8-15 pounds or more and range in height anywhere from about 10"-14" inches tall.
+          </p>
+        </div>
+        </div>
+        <div class="accordion">
+          <div class="accordion__question">
+            <p><span>&#63;</span> How long do American-Shorthair cats live?</p>
+        
+          </div>
+          <div class="accordion__answer">
+            <p>The Average lifespan for American Shorthair is 12 -17 years.</p>
+          </div>
+          </div>
+          <div class="accordion">
+            <div class="accordion__question">
+              <p><span>&#63;</span> Do American-Shorthair cats shed?</p>
+          
+            </div>
+            <div class="accordion__answer">
+              <p> American Shorthair are short-haired cats. Therefore, they do not shed as much as long-haired cat breeds.</p>
+            </div>
+            </div>
+      </div>
+    </div>
+    <div class="last" style="text-align: center;"><h1>Join the Cat-Loving <br>Community!</h1>
+     <p>Be the first to get our latest updates, insider videos, cat <br>health resources, and more.</p>
+     <input type="email" name="email" id="email" class="bt" placeholder="Your Email">
+       &nbsp;
+     <button class="bt2">Join the family</button>
+    </div>
+
+    <script>
+      let answers = document.querySelectorAll(".accordion");
+      answers.forEach((event) => {
+      event.addEventListener("click", () => {
+        if (event.classList.contains("active")) {
+        event.classList.remove("active");
+        } else {
+        event.classList.add("active");
+        }
+      });
+      });
+    </script>
+
+</body>
+</html>
